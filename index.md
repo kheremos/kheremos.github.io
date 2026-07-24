@@ -3,9 +3,10 @@ layout: home
 title: Home
 ---
 
-# Welcome
+# Senior DevOps Engineer & Full-Stack Developer
 
-I am a Senior Devops Engineer and General Full Stack Developer. This is a portfolio containing a few of my past and current projects. The list is not all-inclusive.
+
+Welcome! I build resilient cloud infrastructure, automated CI/CD pipelines, and full-stack web/mobile applications. Below is a selection of a few of my personal projects.
 
 ---
 
@@ -13,18 +14,25 @@ I am a Senior Devops Engineer and General Full Stack Developer. This is a portfo
 
 ### Android Applications and Games
 
+A collection of native and Unity-based Android projects built under Darkest Ocean Development.
+
+
 ![Screenshot](/assets/images/googleapps.png){: .featured-image}
 
-Unfortunately, due to recent changes in privacy, the above applications are inactive on the Google Play Store, but work is in progress to restore some of them.
+Note: Currently updating target API levels and privacy policy requirements to re-publish some of these apps to the Google Play Store.
+Due to changes in how Google approached the privacy of developers, this has been a long ongoing proccess.
 
 ---
 
-### PogFinder
+### PogFinder — Stream Highlight Analytics
 
-I am currently working on a web-based application I call "PogFinder" which will help graph interactions during a stream to help find the key moments.
-The goal is to allow people to see the best parts without having to watch an entire 8+ hour stream.
+A web application designed to automatically detect and graph chat engagement spikes during live streams, 
+enabling viewers and creators to pinpoint highlight moments without sifting through hours of VOD footage.
 
-Source code is currently under wraps and I'm exploring hosting options.
+Tech Stack: Python, Node.js, D3.js 
+
+Status: Active development / Private repo (quick demo available upon request)
+<!-- Demo on local: C:\Users\Khere\Documents\Projects\PogFinder\HTML pages -->
 
 ---
 
