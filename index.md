@@ -41,6 +41,11 @@ Although a light-weight codepen, this app helped me learn Hiragana (Japanese cha
 </p>
 <script async src="https://public.codepenassets.com/embed/index.js"></script>
 
+
+Embedded locally sourced code.
+
+<iframe src="{{ '/projects/hiragana/' | relative_url }}" style="width: 100%; height: 600px; border: none; border-radius: 8px;"></iframe>
+
 ---
 
 ## About
