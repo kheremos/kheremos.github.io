@@ -56,5 +56,6 @@ developing my technical skills through ongoing learning and a variety of small p
 ---
 
 ## Contact
-
-- On resume
+<p>
+  Contact: <span class="obfuscated-email">moc.liamg [ta] eerfpams.gerg</span>
+</p>
