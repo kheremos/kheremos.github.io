@@ -3,19 +3,27 @@
 
 /* ===== Color palette ===== */
 
-$accent: #7c3aed;      // Purple
+$accent: #9c4afd;      // Purple
 $accent-light: #a855f7;
 $bg: #fafafa;
 $text: #222;
+$border-color: #e5e7eb;
 
-/*  General  */
+/* ===== General & Layout ===== */
 
 body {
     background: $bg;
     color: $text;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem 1.5rem;   /* Prevents text from hugging screen edges */
+    max-width: 900px;        /* Keeps reading width comfortable */
+    margin-left: auto;       /* Centers the page layout */
+    margin-right: auto;
 }
 
-/*  Headings  */
+/* ===== Headings ===== */
 
 h1, h2, h3, h4 {
     color: $accent;
@@ -25,6 +33,7 @@ h1, h2, h3, h4 {
 h2 {
     border-bottom: 2px solid rgba($accent, .25);
     padding-bottom: .25rem;
+    margin-top: 2.5rem;      /* Gives sections breathing room */
 }
 
 /* ===== Links ===== */
@@ -40,23 +49,30 @@ a {
     }
 }
 
-/*  Images  */
+/* ===== Images & Media ===== */
 
 img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
+    border: 1px solid $border-color;            /* Clean outline for app images */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft drop shadow */
 }
 
 .featured-image {
-    width: 70vw;
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     height: auto;
     display: block;
-    margin: 20 auto;
+    margin: 1.5rem auto;                        /* Fixed unit: centers & adds vertical margin */
 }
 
-/*  Navigation  */
+iframe {
+    max-width: 100%;                             /* Keeps embedded tools/games fluid */
+    border-radius: 8px;
+}
+
+/* ===== Navigation ===== */
 
 .site-nav a,
 .page-link {
@@ -79,6 +95,8 @@ code {
 
 pre {
     border-left: 4px solid $accent;
+    padding: 1rem;
+    overflow-x: auto;                            /* Horizontal scroll for long code blocks on mobile */
 }
 
 /* ===== Blockquotes ===== */
@@ -87,37 +105,51 @@ blockquote {
     border-left: 4px solid $accent;
     background: #fbf8ff;
     padding: .75rem 1rem;
+    margin: 1.5rem 0;
 }
 
-/* ===== Buttons (if your theme has them) ===== */
+/* ===== Buttons ===== */
 
 .btn,
 .button {
     background: $accent;
     color: white;
     border-radius: 8px;
+    padding: .5rem 1rem;
+    display: inline-block;
 
     &:hover {
         background: $accent-light;
     }
 }
 
-/* ===== Images ===== */
-
-img {
-    border-radius: 8px;
-}
-
-/*  Cards / Posts  */
+/* ===== Cards / Posts ===== */
 
 .post,
 .post-preview,
 .card {
     border: 1px solid #eee;
     border-radius: 10px;
+    padding: 1rem;
     transition: box-shadow .2s ease;
 
     &:hover {
         box-shadow: 0 4px 16px rgba($accent, .12);
+    }
+}
+
+/* ===== Mobile Responsiveness ===== */
+
+@media (max-width: 640px) {
+    body {
+        padding: 1rem;                            /* Tighter padding on mobile screens */
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.35rem;
     }
 }
