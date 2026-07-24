@@ -57,5 +57,5 @@ developing my technical skills through ongoing learning and a variety of small p
 
 ## Contact
 <p>
-  Contact: <span class="obfuscated-email">moc.liamg [ta] eerfpams.gerg</span>
+  Contact: <span class="obfuscated-email">moc.liamg [ta] eerfmaps.gerg</span>
 </p>
