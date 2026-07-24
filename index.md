@@ -16,11 +16,10 @@ Welcome! I build resilient cloud infrastructure, automated CI/CD pipelines, and 
 
 A collection of native and Unity-based Android projects built under Darkest Ocean Development.
 
-
 ![Screenshot](/assets/images/googleapps.png){: .featured-image}
 
 Note: Currently updating target API levels and privacy policy requirements to re-publish some of these apps to the Google Play Store.
-Due to changes in how Google approached the privacy of developers, this has been a long ongoing proccess.
+Due to changes in how Google approached the privacy of developers, this has been an ongoing process.
 
 ---
 
@@ -38,11 +37,12 @@ Status: Active development / Private repo (quick demo available upon request)
 
 ### Hiragana Shooter
 
-Although a light-weight codepen, this app helped me learn Hiragana (Japanese characters) while playing a game I designed.
+An interactive, browser-based game built to make learning Hiragana (Japanese characters) engaging and intuitive through custom gameplay.
+Space (on a keyboard, not mobile) also slows down the characters. Missed characters show up in the hint box at the bottom.
 
 <iframe src="{{ '/projects/hiragana/' | relative_url }}" style="width: 100%; height: 600px; border: none; border-radius: 8px;"></iframe>
 
-
+For greater challenge, the codepen can be edited for a much larger character set.
 [Hiragana Shooter - CodePen](https://codepen.io/kheremos/full/qjpomK)
 
 
