@@ -153,3 +153,14 @@ blockquote {
         font-size: 1.35rem;
     }
 }
+
+.obfuscated-email {
+  // Flips the text visually left-to-right
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  display: inline-block;
+
+  // Optional styling
+  color: inherit;
+  font-family: inherit;
+}
