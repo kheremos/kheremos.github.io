@@ -26,7 +26,7 @@ Due to changes in how Google approached the privacy of developers, this has been
 
 PokerRPG is currently in an active testing phase. If you'd like to help test the app, or just generally see what it is, expand the section below for instructions.
 
-<details>
+<details markdown="1">
 <summary><b>Click to view testing instructions (Android only)</b></summary>
 
 1. **Join the Google Group first:**  
