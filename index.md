@@ -18,8 +18,29 @@ A collection of native and Unity-based Android projects built under Darkest Ocea
 
 ![Screenshot](/assets/images/googleapps.png){: .featured-image}
 
-Note: Currently updating target API levels and privacy policy requirements to re-publish some of these apps to the Google Play Store.
+Note: Currently updating target API levels and privacy policy requirements to re-publish some of these apps to the Google Play Store, specifically PokerRPG mentioned below.
+
 Due to changes in how Google approached the privacy of developers, this has been an ongoing process.
+
+### PokerRPG
+
+PokerRPG is currently in an active testing phase. If you'd like to help test the app, or just generally see what it is, expand the section below for instructions.
+
+<details>
+<summary><b>Click to view testing instructions (Android only)</b></summary>
+
+1. **Join the Google Group first:**  
+   [PokerRPG Google Group](https://groups.google.com/g/pokerrpg)
+
+2. **Opt-in on the Web** *(Note: Google Play may take up to an hour after joining the group to grant access)*:  
+   [PokerRPG Web Testing Opt-in](https://play.google.com/apps/testing/com.DarkestOcean.com.unity.PokerRPG)
+
+3. **Install on Android:**  
+   [PokerRPG on Google Play](https://play.google.com/store/apps/details?id=com.DarkestOcean.com.unity.PokerRPG)
+
+> **Note on Privacy:** The group's member list is private, and all messages are moderated to prevent all unsolicited emails.
+
+</details>
 
 ---
 
